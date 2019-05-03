@@ -1,0 +1,43 @@
+body{
+    background: url(../img/1.jpg)100% 100% no-repeat;
+    background-size: cover; 
+    font-family: cursive;
+   
+}
+nav{
+    text-align: right;
+    background-color:red;
+    height: 30px;
+    font-family:sans-serif;
+    padding-top: 10px;
+    }
+nav a{
+    display: inline-block;
+    font-size: 18px;
+}
+nav a:link{color: black; text-decoration: none;}
+nav a:active{text-decoration: underline;}
+nav a:visited {color: yellow; text-decoration: none; }
+main{
+    margin: 5% 10% 10%;
+    background-color: rgba(313, 13456, 06, 0.69);
+    padding: 1% 5%;
+}
+img{
+    display: flex;
+    width: 100%;
+        
+}
+h1{
+    text-align: center;
+    color: red;
+    font-size: 28pt;
+}
+p{
+    font-size: 12pt;
+    text-indent: 30px;
+}
+div img{
+    width: 50%;
+    margin-left: 25%;
+}
